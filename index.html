@@ -11,7 +11,7 @@
         <nav>
             <a href="index.html"> <img src="https://www.odmps.org/updates/wp-content/uploads/2022/08/PS.png" alt="Logo"></a>
             <div class="nav-links" id="navLinks">
-                <i class='bx bx-x'></i>
+                <i class='bx bx-x' onclick="hideMenu()"> </i>
                 <ul>
                     <li><a href="">Home</a></li>
                     <li><a href="">About</a></li>
@@ -20,7 +20,7 @@
                     <li><a href="">Contact</a></li>
                 </ul>
             </div>
-            <i class='bx bx-menu'></i>
+            <i class='bx bx-menu' onclick="showMenu()"></i>
         </nav>
 
         <div class="text-box">
@@ -30,6 +30,40 @@
         </div>
     </section>
 
+    <!-- Course Section -->
 
+    <section class="course">
+        <h1>Cources We Offer</h1>
+        <p>ODM Public School offers a diverse range of courses designed to cater to the academic and developmental needs of students from Nursery to Class 12. The school follows the CBSE curriculum, providing a strong foundation in subjects like Science, Commerce, Humanities, and Technology. Alongside core academics, ODM emphasizes skill-based learning through various elective courses, vocational programs, and co-curricular activities, ensuring a balanced education that prepares students for competitive exams and future careers.</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Nursury - Matriculation</h3>
+                <P>ODM Public School offers a comprehensive CBSE curriculum from Nursery to Class 10, focusing on core subjects like Mathematics, Science, Social Studies, and Languages. The school integrates co-curricular activities, skill development, and modern teaching methods to ensure a balanced and holistic education for every student.</P>
+            </div>
+
+            <div class="course-col">
+                <h3>+2 Science</h3>
+                <P>ODM Public School's +2 Science program, following the CBSE curriculum, offers core subjects like Physics, Chemistry, Mathematics, and Biology, along with Computer Science and Physical Education. Students can also choose a 6th optional subject, with Painting and Odissi available, fostering both academic and creative growth for a well-rounded education.</P>
+            </div>
+
+            <div class="course-col">
+                <h3>+2 Commerce</h3>
+                <P>ODM Public School's +2 Commerce program follows the CBSE curriculum, offering subjects such as Accountancy, Business Studies, Economics, and Mathematics. The program emphasizes practical learning and skill development, preparing students for careers in business, finance, and entrepreneurship.</P>
+            </div>
+        </div>
+
+    </section>
+
+
+<!-- Toggle JS -->
+    <script>
+        var navLinks= document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
 </body>
 </html>
