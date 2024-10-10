@@ -349,3 +349,34 @@ nav .bx{
         font-size: 24px;
     }
 }
+
+/* Footer Design */
+
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.footer p{
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: center;
+}
+
+.footer h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.icons .bx{
+    color: #f44336;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+}
+
+.bx-heart{
+    color: #f44336;
+}
