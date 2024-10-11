@@ -380,3 +380,54 @@ nav .bx{
 .bx-heart{
     color: #f44336;
 }
+
+/* About Us Page of About.html */
+
+.sub-header{
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, .7), rgba(4, 9, 30, .7)),url(https://www.odmps.org/images/image-gallery/activity/Acticvities%20image%20new11.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+
+.sub-header h1{
+    margin-top: 50px;
+}
+
+.about-us{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.about-col{
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+
+.about-col img{
+    width: 100%;
+}
+
+.about-col h1{
+    padding-top: 0;
+}
+
+.about-col p{
+    padding: 15px 0 25px;
+}
+
+.red-btn{
+    border: 1px solid #f44336;
+    background: transparent;
+    color: #f44336;
+    border-radius: 10px;
+}
+
+.red-btn:hover{
+    color: #fff;
+}
