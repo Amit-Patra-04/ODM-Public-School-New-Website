@@ -328,7 +328,7 @@ nav .bx{
 /* Call to Action */
 
 .cta{
-    margin: 100px auto;
+    margin: 10px auto;
     width: 80%;
     background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(Images/Globe.webp);
     background-position: center;
@@ -381,12 +381,17 @@ nav .bx{
     color: #f44336;
 }
 
+.txt{
+    text-decoration: none;
+    color: black;
+}
+
 /* About Us Page of About.html */
 
 .sub-header{
     height: 50vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4, 9, 30, .7), rgba(4, 9, 30, .7)),url(https://www.odmps.org/images/image-gallery/activity/Acticvities%20image%20new11.jpg);
+    background-image: linear-gradient(rgba(4, 9, 30, .7), rgba(4, 9, 30, .7)),url(Images/Others.jpg);
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -478,6 +483,10 @@ nav .bx{
     color: #555;
     padding: 8px;
     box-sizing: border-box;
+}
+
+.blog-right a{
+    text-decoration: none;
 }
 
 .comment-box{
